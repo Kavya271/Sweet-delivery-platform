@@ -1,0 +1,141 @@
+.header {
+  background: black;
+  padding: 0;
+  border-bottom: 1px solid #e72929;
+}
+
+.header a {
+  color: #af1313;
+}
+
+.header a:hover {
+  background: rgb(184, 176, 176);
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.header ul a {
+  padding: 1rem;
+  display: inline-block;
+}
+
+.menu_container {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  z-index: 1001;
+  background-color: whitesmoke;
+  display: none;
+}
+
+.menu_container:hover .menu {
+  display: block;
+}
+
+.menu a {
+  width: 100%;
+  min-width: 8rem;
+}
+
+.cart_count {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 0.1rem 0.45rem;
+  border-radius: 100rem;
+  font-size: 0.9rem;
+}
+.logoImage {
+  max-width: 100px; /* Adjust the size as needed */
+ 
+  margin-right: 10px;
+  max-height:100px; /* Add margin to separate the logo from text */
+}
+
+
+
+
+
+/* Assuming this is your CSS file (e.g., Banner.css) */
+
+/* Style the banner container */
+.banner {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0.75rem; 
+padding: 0;
+background: black;/* Equivalent to p-3 */
+}
+
+/* Style the banner image section */
+.banner-image {
+width: 10px;
+max-width: 50%; /* Equivalent to md:w-1/2 */
+}
+
+
+
+
+/* Style the banner description section */
+.banner-description {
+width: 100%;
+max-width: 50%; /* Equivalent to md:w-1/2 */
+padding-left: 1.75rem; /* Add left padding to create space */
+text-align: left; /* Align text to the left */
+}
+
+/* Style the title */
+.banner-description h2 {
+flex: 1;
+text-align: left;
+font-family: 'Pacifico', cursive;
+text-shadow: 2px 2px 2px rgb(222, 6, 6);
+
+color:red;
+font-size:38px; /* Increase font size for a thicker appearance */
+font-weight: bold; /* Make the text thicker/bolder */
+margin-top: -80px;
+margin-bottom: 1px; /* Adjust the margin as needed */
+
+
+
+}
+
+/* Style the subtitle */
+.banner-description p {
+color:white;
+
+}
+
+/* Style the "See Menu" link */
+.btn-container a {
+color:white;/* Your existing styles for the link */
+}
+/* Adjust the .banner-image class */
+.banner-image {
+display: flex;
+justify-content: center; /* Align content to the right */
+align-items: center; 
+padding: 5px;
+/* Vertically center content */
+}
+

@@ -1,0 +1,75 @@
+/* Assuming this is your CSS file (e.g., Banner.css) */
+
+/* Style the banner container */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem; 
+   padding: 0;
+  background: black;/* Equivalent to p-3 */
+  }
+  
+  /* Style the banner image section */
+  .banner-image {
+    width: 100%;
+    max-width: 50%; /* Equivalent to md:w-1/2 */
+  }
+  
+  /* Style the image within the banner */
+  .webimg {
+    max-height: 23.75rem; /* Equivalent to max-h-95 */
+    /* Your existing styles for the image */
+  }
+  
+  /* Style the banner description section */
+  .banner-description {
+    width: 100%;
+    max-width: 50%; /* Equivalent to md:w-1/2 */
+    padding-left: 1.75rem; /* Add left padding to create space */
+    text-align: left; /* Align text to the left */
+  }
+  
+  /* Style the title */
+  .banner-description h2 {
+    flex: 1;
+    text-align: left;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 2px rgb(222, 6, 6);
+
+    color:red;
+    font-size:38px; /* Increase font size for a thicker appearance */
+    font-weight: bold; /* Make the text thicker/bolder */
+    margin-top: -80px;
+    margin-bottom: 1px; /* Adjust the margin as needed */
+  
+
+
+  }
+  
+  /* Style the subtitle */
+  .banner-description p {
+    color:white;
+    
+  }
+  
+  /* Style the "See Menu" link */
+  .btn-container a {
+    color:white;/* Your existing styles for the link */
+  }
+ /* Adjust the .banner-image class */
+.banner-image {
+    display: flex;
+    justify-content: center; /* Align content to the right */
+    align-items: center; 
+    padding: 5px;
+    /* Vertically center content */
+  }
+  
+  /* Style the image if needed */
+  .webimg {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    /* Additional styling properties as needed */
+  }
+  
+  
